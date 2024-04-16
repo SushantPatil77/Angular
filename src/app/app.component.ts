@@ -9,4 +9,8 @@ import { FormControl} from '@angular/forms';
 export class AppComponent {
   title = 'ReactiveFrom';
   name = new FormControl('');
+
+  updateName(){
+    this.name.setValue("Vancy");
+  }
 }
