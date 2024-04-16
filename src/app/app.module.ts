@@ -7,7 +7,9 @@ import { ProfileEditorComponent } from './profile-editor/profile-editor.componen
 import { FormBuilderComponent } from './form-builder/form-builder.component';
 import { TempleteDrivenFromComponent } from './templete-driven-from/templete-driven-from.component';
 import { ParentComponetComponent } from './parent-componet/parent-componet.component';
-import { ChildComponetComponent } from './child-componet/child-componet.component'
+import { ChildComponetComponent } from './child-componet/child-componet.component';
+import { FatherComponent } from './father/father.component';
+import { SonComponent } from './son/son.component'
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ChildComponetComponent } from './child-componet/child-componet.componen
     FormBuilderComponent,
     TempleteDrivenFromComponent,
     ParentComponetComponent,
-    ChildComponetComponent
+    ChildComponetComponent,
+    FatherComponent,
+    SonComponent
   ],
   imports: [
     BrowserModule,
