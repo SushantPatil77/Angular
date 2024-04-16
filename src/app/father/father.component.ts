@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./father.component.css']
 })
 export class FatherComponent implements OnInit {
+    val:string='';
    items =['item1','item2','item3']
   constructor() { }
 
