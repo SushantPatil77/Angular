@@ -5,14 +5,18 @@ import { AppComponent } from './app.component';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 import { ProfileEditorComponent } from './profile-editor/profile-editor.component';
 import { FormBuilderComponent } from './form-builder/form-builder.component';
-import { TempleteDrivenFromComponent } from './templete-driven-from/templete-driven-from.component'
+import { TempleteDrivenFromComponent } from './templete-driven-from/templete-driven-from.component';
+import { ParentComponetComponent } from './parent-componet/parent-componet.component';
+import { ChildComponetComponent } from './child-componet/child-componet.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     ProfileEditorComponent,
     FormBuilderComponent,
-    TempleteDrivenFromComponent
+    TempleteDrivenFromComponent,
+    ParentComponetComponent,
+    ChildComponetComponent
   ],
   imports: [
     BrowserModule,
