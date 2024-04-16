@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FatherComponent implements OnInit {
     val:string='';
+    value:string='oneWayDatabinding';
    items =['item1','item2','item3']
   constructor() { }
 
